@@ -1,9 +1,16 @@
 class BirthdayList
-    def store_birthday(date)
-        birthdays = []
+	def store_birthday(name,date)
+		birthdays = []
 
-        birthdays << date
+		birthdays << {name: name, date: date}
 
-        birthdays
-    end
+		birthdays
+	end
+
+	def add_name(name)
+			
+	namelist = []
+	
+	namelist << name
+	end
 end
